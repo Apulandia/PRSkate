@@ -127,7 +127,7 @@
   margin-right:20%;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
 
 #Scroll{
   display: flex;
