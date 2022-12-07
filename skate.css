@@ -126,3 +126,17 @@
   margin-left: 20%;
   margin-right:20%;
 }
+
+@media all and (max-width: 500px) {
+
+#Scroll{
+  display: flex;
+}
+
+.phscroll {
+  height: 50%;
+  width: 40%;
+  display: flex;
+}
+
+}
