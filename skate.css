@@ -25,6 +25,7 @@
   margin-right: 2%;
   display: flex;
   align-items:center; 
+  
   }
   #Scroll {
     background-color: rgba(0, 0, 0, 0.747);
@@ -153,6 +154,7 @@ nav {
   margin-right: 3%;
   display: flex;
   align-items:center; 
+  justify-content: space-between;
 }
 h2{
   margin:0;
@@ -212,7 +214,7 @@ a {
 
 #feed {
   background-color:black;
-  height: 100vw;
+  height: 170vw;
   width: 60%;
   margin: auto;
   margin-top: 0; 
@@ -225,7 +227,9 @@ a {
 }
 .pfeed {
   color: white;
-  margin: 40px;
+  font-size: xx-small;
+  margin: .5%;
+  margin-top: 15%;
   position: relative;
   width: 20%;
   height:20%;
@@ -233,6 +237,22 @@ a {
 .phfeed {
   height:30%;
   width:30%;
+}
+.pho {
+  color:white;
+  padding:2%;
+  height:170vw;
+  background-color: rgba(0, 0, 0, 0.678);
+  margin-left: 20%;
+  margin-right:20%;
+}
+.contact {
+  color:white;
+  padding:2%;
+  height:170vw;
+  background-color: rgba(0, 0, 0, 0.678);
+  margin-left: 20%;
+  margin-right:20%;
 }
 }
 
