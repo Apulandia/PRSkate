@@ -128,7 +128,7 @@
   margin-right:20%;
 }
 
-@media only screen and (min-width: 896px) and (orientation: portrait) {
+@media all and (max-width: 700px) {
 
 body {
   margin: 0;
@@ -190,7 +190,7 @@ nav {
 #Scroll {
   background-color: rgba(0, 0, 0, 0.747);
   color: blue;
-  height: 100px;
+  height: 40vw;
   position:relative; 
 }
 h2{
@@ -209,9 +209,15 @@ a {
   height: 30%;
   width: 20%;
   display: flexbox;
-  margin: 0.2%;
+  padding:4%;
+  padding-top: 7%;
+  margin: 0.4%;
 }
 
+
+.p4 { 
+  display: none;
+}
 #feed {
   background-color:black;
   height: 170vw;
@@ -254,5 +260,7 @@ a {
   margin-left: 20%;
   margin-right:20%;
 }
+.dfeed{
+  display:none;
 }
-
+}
