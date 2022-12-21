@@ -128,7 +128,7 @@
   margin-right:20%;
 }
 
-@media all and (max-width: 500px) {
+@media only screen and (min-width: 896px) and (orientation: portrait) {
 
 body {
   margin: 0;
